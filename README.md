@@ -23,7 +23,6 @@
 
     Run the code chunk 'gitconnection' at least once successfully.
 
-
 5.  Create the `README.md` file by rendering the `README.Rmd` file
 
 6.  Check the resulting `README.md` file:

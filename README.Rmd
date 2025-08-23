@@ -49,9 +49,10 @@ library(rstudioapi)
 
   - Connection to git
 ```{r gitconnection}
+  noerror <- TRUE
   if (!file.exists("gitconnection.rds")) {
     cat("Run the code chunk 'gitconnection' at least once successfully.")
-    noerror <- TRUE
+    noerror <- FALSE
   }
 
   project_path <- tryCatch(usethis::proj_get(), error = function(e) NULL)
