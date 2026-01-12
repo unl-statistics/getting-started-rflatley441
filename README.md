@@ -22,15 +22,27 @@
 <!-- -->
 
     Run the code chunk 'gitconnection' at least once successfully.
+    ✔ Setting active project to
+      "/Users/hofmann/Documents/Teaching/stat-assignments/Connecting-RStudio-and-Git-Github".
+    Project Path:  /Users/hofmann/Documents/Teaching/stat-assignments/Connecting-RStudio-and-Git-Github 
+    Git repository detected.
+    GitHub Remote(s):
+    [1] "origin"
+
+    Checking pull access...
+    Pull rights: YES 
+
+    Checking push access...
+    Push rights: YES 
 
 5.  Create the `README.md` file by rendering the `README.Rmd` file
 
 6.  Check the resulting `README.md` file:
 
-    - is your version of R (relatively) current? (most current: 4.5.1)
+    - is your version of R (relatively) current? (most current: 4.5.2)
     - is your RStudio version from this year?
     - is your version of git (relatively) current? (most current:
-      2.51.0)
+      2.52.0)
 
     If any of your answers above is ‘no’ install a newer version.
 
